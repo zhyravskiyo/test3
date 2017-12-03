@@ -1,0 +1,23 @@
+{
+  "name": "zhyravskiyo/mvctest",
+  "description": "Custom app on MVC pattern",
+  "keywords": ["mvc", "test"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhyravskyy Oleh",
+      "email": "zhyravskiy.o@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "nikic/fast-route": "^1.2",
+    "symfony/http-foundation": "^4.0"
+  }
+}
